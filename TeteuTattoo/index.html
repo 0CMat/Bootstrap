@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Studio Teteu Tattoo</title>
+    <title> Studio - Teteu Tattoo</title>
     <link rel="shortcut icon" href="css/assets/TETEU TATTO CERTO.png" type="image/x-icon">
     
       <!-- Bootstrap CSS -->
@@ -16,9 +16,9 @@
     <nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: black"> <!--  navbar -->
       <div class="container-fluid"> <!--  container -->
         <a class="navbar-brand" href="#"> <!--  navbar - title -->
-          <h3 class="d-flex" style="color: rgb(197, 196, 196); margin-top: 10px;">TETEU TATTOO</h3>
+          <h3 id="titulo-nav" class="d-flex" style=" margin-top: 10px;">Respirando Tinta!</h3>
         </a> <!--  navbar - title -->
-        <img src="css/assets/TETEU TATTO CERTO.png"  height="65" class="d-inline-blockalign-text-center" style="font-size: xx-large;">
+        <img id="logomarca-nav" src="css/assets/TETEU TATTO CERTO.png"  class="d-inline-blockalign-text-center" style="font-size: xx-large;">
 
         <div class="position-static"><!--  navbar - menu -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,19 +42,19 @@
     </nav> <!--  navbar -->
 
     
-    <div class="container-fluid "><!-- slider -->
-      <div class="w-100 p-3">
-        <img src="css/assets/slideeer svg.svg" class="d-flex w-100" alt="...">
+    <div class="container-sm"><!-- slider -->
+      <div class="w-100 p-1">
+        <img src="css/assets/slideeer svg.svg" class="d-block w-100" alt="...">
       </div>
     </div><!-- slider -->
 
 
-    <div class="container-fluid"> <!-- Section - Projetos Executados   -->
+    <div class="container-sm"> <!-- Section - Projetos Executados   -->
       <hr>
-        <h1 class="text-center" style="margin-top: 30px; margin-bottom: 30px"><img src="css/assets/Icons/maquina-de-tatuagem.svg" alt="tattoo" width="40px auto"> Projetos Executados</h1> <!-- title -->
+        <h1 class="text-center" style="margin-top: 30px; margin-bottom: 30px; color:black; text-shadow:15px;"><img src="css/assets/Icons/maquina-de-tatuagem.svg" alt="tattoo" width="40px auto"> Projetos Executados</h1> <!-- title -->
         
             <div class="container" style="margin-bottom: 30px;"> <!--Container - Carrosel -->
-              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"><!-- Carrosel -->
+              <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel"><!-- Carrosel -->
 
                 <div class="carousel-indicators"><!--Controles - Carrosel -->
                   <button type="button" data-bs-target="#carouselExampleDark=" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -91,11 +91,11 @@
             </div><!--Container - Carrosel -->
     </div><!-- Section - Projetos Executados   -->
 
-      <div class="container"> <!-- Section - Contatos   -->
+      <div class="container-sm" style="margin-bottom: 20px;"> <!-- Section - Contatos   -->
           <hr>
-          <h1 class="container-fluid text-center" style="margin-top: 30px; margin-bottom: 30px"><img src="css/assets/Icons/address-card-solid.svg" alt="tattoo" width="35px auto"> Contatos</h1>
+          <h1 class="container-fluid text-center" style="margin-top: 30px; margin-bottom: 30px;color:black;"><img src="css/assets/Icons/address-card-solid.svg" alt="tattoo" width="35px auto"> Contatos</h1>
           <div class="grid">
-            <div class="card w-100">
+            <div class="card w-100" style="background-color:rgb(180, 180, 180);">
               <div class="container-fluid card-body text-center">
                 <img src="css/assets/Icons/map-location-dot-solid.svg" alt="location" width="45px" style="margin: 10px;">
                 <h5 class="card-title">Endereço:</h5>
@@ -103,7 +103,7 @@
                 <a href="#" class="btn btn-primary">Ative o GPS!</a>
               </div>
             </div>
-            <div class="card w-100" style="margin-top: 20px;">
+            <div class="card w-100" style="margin-top: 20px; background-color:rgb(180, 180, 180);">
               <div class="container-fluid card-body text-center">
                 <img src="css/assets/Icons/phone-solid.svg" alt="phone" width="30px" style="margin: 10px;">
                 <h5 class="card-title">Telefone:</h5>
@@ -114,7 +114,7 @@
               </div>
             </div>
 
-            <div class="card w-100" style="margin-top: 20px;">
+            <div class="card w-100" style="margin-top: 20px;background-color:rgb(180, 180, 180);">
               <div class="row">
                 <div class="col-md-6 text-center">
                   <div class="card-body w-100">
@@ -125,7 +125,7 @@
                   </div>
                 </div>
                 <div class="col-sm-6 text-center">
-                    <div class="card-body w-100">
+                    <div class="card-body w-100" style="background-color:rgb(180, 180, 180);">
                       <img src="css/assets/Icons/instagram-brands.svg" alt="Instagram" width="30px" style="margin: 10px;">
                       <h5 class="card-title">Instagram</h5>
                       <p class="card-text">Todas as notícias e últimos projetos estão no nosso Instagram!</p>
@@ -137,7 +137,9 @@
             </div>
       </div><!-- Section - Contato -->
 
-
+    <div class="container-lg" style="background-color: black;">
+      
+    </div>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

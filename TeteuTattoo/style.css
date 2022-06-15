@@ -1,7 +1,41 @@
 body{ 
-    background-color: rgb(197, 196, 196);
+    background-color: rgb(48, 48, 48);
+    font-family: cursive;
 }
 
 nav{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: cursive;
 }
+ nav h3{
+    color: rgb(201, 200, 200);
+    text-shadow: 20px;
+    font-style: italic;
+ }
+
+ #logomarca-nav{
+    height: 75px;
+}
+
+ @media screen and (max-width: 350px){
+    #logomarca-nav{
+        height: 50px;
+    }
+
+    #titulo-nav{
+      font-size: 14px;
+    }
+
+    .navbar-toggler{
+        font-size: 14px;
+    }
+  };
+
+  @media screen and (max-width: 550px){  
+    #titulo-nav{
+      font-size: 18px;
+    }
+
+    .navbar-toggler{
+        font-size: 2px;
+    }
+  }
